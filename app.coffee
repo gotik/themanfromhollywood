@@ -1,4 +1,6 @@
 express = require 'express'
+stylus = require 'stylus'
+nib = require 'nib'
 app = module.exports = express.createServer()
 
 app.configure () ->
